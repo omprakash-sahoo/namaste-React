@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .colour{
+            color: red;
+        }
+    </style>
 </head>
 <body>
+    <div id="root"></div>
+    <!-- <script>
+        var header = document.createElement('h1');
+        header.innerHTML = "Append Child Example";
+        document.getElementById('root').appendChild(header);
+    </script> -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script>
-        adasd
+        let headings = React.createElement('h1',{},'Hello Omm');
+        let root = ReactDOM.createRoot(document.getElementById('root'))
+        root.render(headings)
     </script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omprakash-sahoo/namaste-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omprakash-sahoo/namaste-React/issues"
+  },
+  "homepage": "https://github.com/omprakash-sahoo/namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
